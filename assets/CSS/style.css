@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    background-image: url(https://design-milk.com/images/2020/04/DM-Wallpaper-2005-1680x1050-featured.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    padding: 10%;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+}
+
+.wrapper {
+    padding: 1rem 0 4rem 0;
+    text-align: center;
+    background-color: rgba(255, 192, 203, 0.8);
+    border-radius: 3rem;
+    color: white;
+}
+
+h1 {
+    text-transform: uppercase;
+    padding: 2.5rem;
+}

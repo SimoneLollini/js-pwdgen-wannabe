@@ -2,7 +2,9 @@ const inserisci = "inserisci il tuo"
 const inserisciNome = (prompt(inserisci + " " + "nome"));
 const inserisciCognome = (prompt(inserisci + " " + "cognome"));
 const inserisciColore = (prompt(inserisci + " " + "colore preferito"));
-const currentYearLast = 22
+const currentYear = 22
+
+
 // Chiedi all’utente il suo nome
 // console.log("inserisci il tuo nome")
 
@@ -17,4 +19,4 @@ const currentYearLast = 22
 
 // Infine scrivi sulla pagina nomecognomecolorepreferito22
 
-document.getElementById('psw').innerHTML = inserisciNome + inserisciCognome + inserisciColore + currentYearLast;
+document.getElementById('psw').innerHTML = inserisciNome + inserisciCognome + inserisciColore + currentYear;
